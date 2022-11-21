@@ -1,7 +1,7 @@
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class Calculadora extends UnicastRemoteObject implements ITFCalculadora {
+public class Calculadora extends UnicastRemoteObject implements ICalculadora {
 	public Calculadora() throws RemoteException {
 		
 	}
